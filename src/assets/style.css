@@ -1,0 +1,101 @@
+@import '~antd/dist/antd.css';
+.site-layout-content {
+  background: #fff;
+  padding: 40px 45px 0 10px;
+  min-height: 500px;
+}
+
+/* custom */
+/* container */
+.float-right{
+    display: flex;
+    justify-content: flex-end;
+    color:white;
+}
+.mobile{
+    visibility: hidden;
+}
+
+.big-blue{
+  color:#000053;
+  font-size: 30pt;
+  font-weight: bold;
+}
+.title-maps-container{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5vh;
+    max-width: 560px;
+}
+
+.gutter-row{
+    margin-bottom: 3vh;
+}
+
+.center{
+     margin: 20px 0;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    text-align: center;
+    border-radius: 4px;
+}
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.center-meta{
+    text-align: center;
+}
+
+.center-meta .ant-card-body{
+    height: 150px;
+}
+
+p.center-meta {
+    color: #000053;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.center-meta .ant-card-meta-detail{
+    font-size: 12pt;
+    color:#797979;
+}
+@media screen and (max-width: 720px) {
+    p.center-meta {
+    color: #000053;
+    font-size: 12pt;
+}
+    img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+    .site-layout-content {
+        padding:24px 30px;
+        min-height: 800px;
+    }
+    .desktop{
+        visibility: hidden;
+    }
+    .mobile{
+        visibility: visible;
+        display: flex;
+        margin: auto;
+        width: fit-content;
+    }
+    .big-blue{
+        color:#000053;
+        font-size: 20pt;
+    }
+    .title-maps-container{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    max-width: 560px;
+}
+}
+
+
